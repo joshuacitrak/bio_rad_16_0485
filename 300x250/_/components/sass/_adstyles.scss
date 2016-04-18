@@ -1,0 +1,151 @@
+  body {
+      margin: 0;
+      padding: 0;
+      border: 0;
+      font: inherit;
+      font-size: 100%;
+      vertical-align: baseline;
+  }
+#bradContainer
+{
+    font-family: sans-serif;
+      position: relative;
+      width: 300px;
+      height: 250px;
+      border: 1px solid #666;
+      position: relative;
+      overflow: hidden;
+      text-decoration: none;
+      background: #00a650;
+     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)"; // IE8
+      /* This works in IE 8 & 9 too */
+      /* ... but also 5, 6, 7 */
+      
+      filter: alpha(opacity=0); // IE 5-7
+      /* Modern Browsers */
+      
+    opacity: 0;
+    
+    #bradContent {
+          cursor: pointer;
+          width: 100%;
+          height: 100%;
+        
+        #b1Container{
+            #b1{
+                background-image: url(../img/b1.png);
+                  position: absolute;
+                  top: 77px;
+                  left: 15px;
+                  width: 207px;
+                  height: 52px;
+            }#t1{
+                background-image: url(../img/t1.png);
+                  position: absolute;
+                  top: 90px;
+                  left: 37px;
+                  width: 167px;
+                  height: 26px;
+            } 
+        }
+        #b2Container{
+            #b2{
+                background-image: url(../img/b2.png);
+                  position: absolute;
+                  top: 79px;
+                  left: 62px;
+                  width: 230px;
+                  height: 52px;
+            }#t2{
+                background-image: url(../img/t2.png);
+                  position: absolute;
+                  top: 91px;
+                  left: 76px;
+                  width: 186px;
+                  height: 25px;
+            }
+        }
+        #b3Container{
+            #b3{
+                background-image: url(../img/b3.png);
+                  position: absolute;
+                  top: 115px;
+                  left: 15px;
+                  width: 230px;
+                  height: 37px;
+            }#t3{
+                background-image: url(../img/t3.png);
+                  position: absolute;
+                  top: 127px;
+                  left: 37px;
+                  width: 193px;
+                  height: 12px;
+            }
+        }
+        
+        #t4{
+            background-image: url(../img/t4.png);
+                  position: absolute;
+                  top: 162px;
+                  left: 46px;
+                  width: 210px;
+                  height: 25px;
+        }
+        
+        #bradFlare{
+            background-image: url(../img/flare.png);
+                  position: absolute;
+                  top: 0px;
+                  left: 167px;
+                  width: 182px;
+                  height: 132px;
+        }
+        
+        #bradFooter {
+              background: #fff;
+              width: 300px;
+              height: 48px;
+              position: absolute;
+              top: 202px;
+              #bradLogo {
+                  background-image: url(../img/logo.png);
+                  position: absolute;
+                  top: 14px;
+                  left: 205px;
+                  width: 80px;
+                  height: 20px;
+              }
+              #bradCtaButton {
+                  background: #fa7700;
+                  position: absolute;
+                  top: 14px;
+                  left: 15px;
+                  width: 80px;
+                  height: 20px;
+                  
+                  #bradCtaTxt {
+                      background-image: url(../img/ctat.png);
+                      position: absolute;
+                      top: 5px;
+                      left: 7px;
+                      width: 65px;
+                      height: 9px;
+                  }
+              }
+          }
+    }
+}
+ button {
+      padding: 10px;
+      margin-top: 10px;
+  }
+  
+  button:nth-child(1) {
+      margin-left: 10px;
+  }
+  
+  #slider {
+      width: 300px;
+      margin: 10px;
+      background-color: #ff0;
+  }
