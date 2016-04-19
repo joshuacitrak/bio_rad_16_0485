@@ -3,18 +3,18 @@ function startAd(){
     var btl = new TimelineLite();
     btl.from("#b1", .6, {opacity:0, scale:.8, ease: Elastic.easeOut.config(1, 0.5)})
     .from("#t1", .3, {opacity:0, ease: Power3.easeOut}, "-=.6")
-    .to("#b1Container", .3, {y:-53, ease: Power3.easeOut}, 3.8)
+    .to("#b1Container", .3, {y:-53, ease: Power3.easeOut}, 4)
     .from("#b2", .6, {opacity:0, scale:.8, ease: Elastic.easeOut.config(1, 0.5)}, "-=.2")
     .from("#t2", .3, {opacity:0, ease: Power3.easeOut}, "-=.6")
-    .to("#b1Container", .3, {y:-67, ease: Power3.easeOut}, 7.2)
-    .to("#b2Container", .3, {y:-17, ease: Power3.easeOut}, 7.2)
+    .to("#b1Container", .3, {y:-67, ease: Power3.easeOut}, 8)
+    .to("#b2Container", .3, {y:-17, ease: Power3.easeOut}, 8)
     .from("#b3", .6, {opacity:0, scale:.8, ease: Elastic.easeOut.config(1, 0.5)}, "-=.2")
     .from("#t3", .3, {opacity:0, ease: Power3.easeOut}, "-=.6")
     .from("#t4", .3, {opacity:0, ease: Power3.easeOut}, "+=2.7")
-    .to("#b1Container", .6, {opacity:0, ease: Power3.easeOut}, 13)
-    .to("#b2Container", .6, {opacity:0, ease: Power3.easeOut}, 13)
-    .to("#b3Container", .6, {opacity:0, ease: Power3.easeOut}, 13)
-    .to("#t4", .6, {opacity:0, ease: Power3.easeOut}, 13);
+    .to("#b1Container", .6, {opacity:0, ease: Power3.easeOut}, 14)
+    .to("#b2Container", .6, {opacity:0, ease: Power3.easeOut}, 14)
+    .to("#b3Container", .6, {opacity:0, ease: Power3.easeOut}, 14)
+    .to("#t4", .6, {opacity:0, ease: Power3.easeOut}, 14);
     
     var itl = new TimelineLite()
     itl.from("#t5", .6, {opacity:0, ease: Power3.easeOut})
@@ -24,8 +24,8 @@ function startAd(){
     ctl.from("#bradCtaButton", .4, {opacity:0,ease: Power3.easeOut})
     
     tl.add(btl, 0);
-    tl.add(itl, 13.5)
-    tl.add(ctl, 13.5);
+    tl.add(itl, 14.4)
+    tl.add(ctl, 14.4);
     
     tl.totalDuration(15);
            
