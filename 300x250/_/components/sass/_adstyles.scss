@@ -92,11 +92,45 @@
                   height: 25px;
         }
         
+        #t5{
+            background-image: url(../img/t5.png);
+                  position: absolute;
+                  top: 17px;
+                  left: 32px;
+                  width: 219px;
+                  height: 72px;
+        }
+        
+        #bradIconContainer{
+            #icon1{
+                background-image: url(../img/human.png);
+                  position: absolute;
+                  top: 107px;
+                  left: 46px;
+                  width: 63px;
+                  height: 79px;
+            } #icon2{
+                background-image: url(../img/mouse.png);
+                  position: absolute;
+                  top: 109px;
+                  left: 114px;
+                  width: 68px;
+                  height: 77px;
+            } #icon3{
+                background-image: url(../img/rat.png);
+                  position: absolute;
+                  top: 110px;
+                  left: 187px;
+                  width: 60px;
+                  height: 75px;
+            }
+        }
+        
         #bradFlare{
             background-image: url(../img/flare.png);
                   position: absolute;
                   top: 0px;
-                  left: 167px;
+                  left: 162px;
                   width: 182px;
                   height: 132px;
         }
