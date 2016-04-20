@@ -32,6 +32,7 @@
           height: 100%;
         
         #b1Container{
+            position:relative;
             #b1{
                 background-image: url(../img/b1.png);
                   position: absolute;
@@ -49,6 +50,7 @@
             } 
         }
         #b2Container{
+            position:relative;
             #b2{
                 background-image: url(../img/b2.png);
                   position: absolute;
@@ -61,11 +63,12 @@
                   position: absolute;
                   top: 91px;
                   left: 76px;
-                  width: 186px;
+                  width: 192px;
                   height: 25px;
             }
         }
         #b3Container{
+            position:relative;
             #b3{
                 background-image: url(../img/b3.png);
                   position: absolute;
@@ -130,7 +133,7 @@
             background-image: url(../img/flare.png);
                   position: absolute;
                   top: 0px;
-                  left: 162px;
+                  left: 114px;
                   width: 182px;
                   height: 132px;
         }
