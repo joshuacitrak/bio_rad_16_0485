@@ -1,5 +1,29 @@
 function startAd(){  
-           
+    var btl = new TimelineLite();
+    btl.from("#b1", .6, {opacity:0, scale:.8, ease: Elastic.easeOut.config(1, 0.5)})
+    .from("#t1", .3, {opacity:0, ease: Power3.easeOut}, "-=.6")
+    .to("#b1Container", .3, {opacity:0, ease: Power3.easeOut}, 3.5)
+    .from("#b2", .6, {opacity:0, scale:.8, ease: Elastic.easeOut.config(1, 0.5)}, "-=.2")
+    .from("#t2", .3, {opacity:0, ease: Power3.easeOut}, "-=.6")
+    .to("#b2Container", .3, {opacity:0, ease: Power3.easeOut}, 7)
+    .from("#b3", .6, {opacity:0, scale:.8, ease: Elastic.easeOut.config(1, 0.5)}, "-=.2")
+    .from("#t3", .3, {opacity:0, ease: Power3.easeOut}, "-=.6")
+    .to("#b3Container", .6, {opacity:0, ease: Power3.easeOut}, 10.5)
+    .from("#t4", .3, {opacity:0, ease: Power3.easeOut}, "-=.2")
+    .to("#t4", .6, {opacity:0, ease: Power3.easeOut}, 13);
+    
+    var itl = new TimelineLite()
+    itl.from("#t5", .6, {opacity:0, ease: Power3.easeOut})
+    .from("#bradIconContainer", .6, {opacity:0, ease: Power3.easeOut}, "-=.6");
+    
+    var ctl = new TimelineLite();
+    ctl.from("#bradCtaButton", .6, {opacity:0,ease: Power3.easeOut})
+    
+    tl.add(btl, 0);
+    tl.add(itl, 13.4)
+    tl.add(ctl, 13.4);
+    
+    tl.totalDuration(15);
 };
 
 function addListeners(){
