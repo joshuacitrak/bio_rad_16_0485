@@ -135,8 +135,8 @@ body {
       position: absolute;
       top: 16px;
       left: 35px;
-      width: 175px;
-      height: 60px; }
+      width: 170px;
+      height: 59px; }
     #bradContainer #bradContent #bradIconContainer #icon1 {
       background-image: url(../img/i1.png);
       position: absolute;
@@ -192,15 +192,3 @@ body {
           left: 11px;
           width: 89px;
           height: 13px; }
-
-button {
-  padding: 10px;
-  margin-top: 10px; }
-
-button:nth-child(1) {
-  margin-left: 10px; }
-
-#slider {
-  width: 300px;
-  margin: 10px;
-  background-color: #ff0; }
